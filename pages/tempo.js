@@ -17,6 +17,7 @@ export function getStaticProps() {
 		props: {
 			staticDateString,
 		},
+		revalidate: 1,
 	};
 }
 
